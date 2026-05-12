@@ -247,8 +247,8 @@ class ShopChop_Hero_Carousel extends \Elementor\Widget_Base
 					</div><!-- .swiper-wrapper -->
 					<?php if ($pagination) : ?><div class="swiper-pagination"></div><?php endif; ?>
 					<?php if ($arrows) : ?>
-						<div class="swiper-button-prev" title="Previous Slide"></div>
-						<div class="swiper-button-next" title="Next Slide"></div>
+						<div class="swiper-button-prev" role="button" title="Previous Slide" aria-label="<?php esc_attr_e('Previous Slide', 'shopchop-theme-settings'); ?>"></div>
+						<div class="swiper-button-next" role="button" title="Next Slide" aria-label="<?php esc_attr_e('Next Slide', 'shopchop-theme-settings'); ?>"></div>
 					<?php endif; ?>
 				</div><!-- .swiper -->
 			<?php endif; ?>

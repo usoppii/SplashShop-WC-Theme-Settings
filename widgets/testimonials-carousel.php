@@ -341,8 +341,8 @@ class ShopChop_Testimonials_Carousel extends \Elementor\Widget_Base
 
 	
 					<?php if ($arrows) : ?>
-						<div class="swiper-button-prev" title="<?php esc_attr_e('Previous', 'shopchop-theme-settings'); ?>"></div>
-						<div class="swiper-button-next" title="<?php esc_attr_e('Next', 'shopchop-theme-settings'); ?>"></div>
+						<div class="swiper-button-prev" role="button" title="<?php esc_attr_e('Previous testimonial', 'shopchop-theme-settings'); ?>" aria-label="<?php esc_attr_e('Previous testimonial', 'shopchop-theme-settings'); ?>"></div>
+						<div class="swiper-button-next" role="button" title="<?php esc_attr_e('Next testimonial', 'shopchop-theme-settings'); ?>" aria-label="<?php esc_attr_e('Next testimonial', 'shopchop-theme-settings'); ?>"></div>
 					<?php endif; ?>
 
 				</div><!-- .swiper -->

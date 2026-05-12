@@ -416,8 +416,8 @@ class ShopChop_Products_Carousel extends \Elementor\Widget_Base
 					<?php endif; ?>
 
 					<?php if ($arrows) : ?>
-						<div class="swiper-button-prev" title="<?php esc_attr_e('Previous', 'shopchop-theme-settings'); ?>"></div>
-						<div class="swiper-button-next" title="<?php esc_attr_e('Next', 'shopchop-theme-settings'); ?>"></div>
+						<div class="swiper-button-prev" role="button" title="<?php esc_attr_e('Previous products', 'shopchop-theme-settings'); ?>" aria-label="<?php esc_attr_e('Previous products', 'shopchop-theme-settings'); ?>"></div>
+						<div class="swiper-button-next" role="button" title="<?php esc_attr_e('Next products', 'shopchop-theme-settings'); ?>" aria-label="<?php esc_attr_e('Next products', 'shopchop-theme-settings'); ?>"></div>
 					<?php endif; ?>
 
 				</div><!-- .swiper -->
