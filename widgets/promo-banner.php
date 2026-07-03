@@ -111,9 +111,7 @@ class ShopChop_Promo_Banner extends \Elementor\Widget_Base
 								<?php if ($cta_norel) : ?>rel="<?php echo esc_attr($cta_norel); ?>"<?php endif; ?>
 							>
 								<?php echo esc_html($cta_label); ?>
-								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
-								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path></svg>
 							</a>
 						</div>
 					<?php endif; ?>
