@@ -1,11 +1,13 @@
 <?php
 /**
  * Plugin Name:       ShopChop Theme Settings
+ * Plugin URI:        https://github.com/AquariusSPoolsDev/SplashShop-WC-Theme-Settings
  * Description:       Custom Elementor widgets and theme extensions for ShopChop.
  * Version:           1.0.0
  * Requires at least: 6.0
  * Requires PHP:      8.0
- * Author:            ShopChop
+ * Author:            Usoppii
+ * Author URI:        https://usoppii.my/
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       shopchop-theme-settings
