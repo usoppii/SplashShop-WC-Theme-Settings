@@ -9,7 +9,7 @@
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       shopchop-theme-settings
- * Requires Plugins:  elementor
+ * Requires Plugins:  elementor, woocommerce, yith-woocommerce-wishlist
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -19,6 +19,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'SHOPCHOP_SETTINGS_VERSION', '1.0.0' );
 define( 'SHOPCHOP_SETTINGS_DIR', plugin_dir_path( __FILE__ ) );
 define( 'SHOPCHOP_SETTINGS_URL', plugin_dir_url( __FILE__ ) );
+
+require_once SHOPCHOP_SETTINGS_DIR . 'includes/class-general-settings.php';
 
 /**
  * Register custom Elementor widget category: ShopChop.
